@@ -593,8 +593,9 @@ p {
 }
 .modal-form-icon {
   position: absolute;
-  top: 0;
-  left: 0;
-  fill: transparent;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  fill: #2e2f42;
   stroke: #2e2f42;
 }
