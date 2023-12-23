@@ -455,6 +455,20 @@
         <p class="modal-paragraph">
           Leave your contacts and we will call you back
         </p>
+        <form class="modal-form" name="reviews" novalidate>
+          <label class="modal-label">Name</label>
+          <input
+            class="modal-input"
+            type="text"
+            name="user_name"
+            minlength="3"
+            required
+          />
+          <label class="modal-label">Phone</label>
+          <input class="modal-input" type="tel" name="phone" required />
+          <label class="modal-label">Email</label>
+          <input class="modal-input" type="text" name="email" required />
+        </form>
       </div>
     </div>
   </body>
