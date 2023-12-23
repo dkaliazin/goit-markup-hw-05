@@ -586,5 +586,10 @@ p {
   height: 40px;
   border-radius: 4px;
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+}
+.modal-field {
+  position: relative;
   margin-bottom: 8px;
+}
+.modal-form-icon {
 }
