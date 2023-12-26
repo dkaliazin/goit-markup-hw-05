@@ -505,17 +505,33 @@
           </div>
           <div class="modal-wrapper">
             <label class="modal-label" for="user_comment">Comment</label>
-            <div class="modal-field">
-              <textarea
-                class="modal-textarea"
-                id="user_comment"
-                type="text"
-                name="user_comment"
-                placeholder="Text input"
-                rows="6"
-              ></textarea>
-            </div>
+
+            <textarea
+              class="modal-textarea"
+              id="user_comment"
+              type="text"
+              name="user_comment"
+              placeholder="Text input"
+              rows="6"
+            ></textarea>
           </div>
+          <label class="modal-agreement">
+            <input
+              class="modal-checkbox"
+              type="checkbox"
+              name="usr_agreement"
+              value="false"
+            />
+            <span class="form-agreement-checkbox">
+              <svg class="form-agreement-icon" width="10" height="10">
+                <use href="./images/sprite.svg#icon-checkbox"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="form-agreement-link" href="">Privacy Policy</a>
+          </label>
+
+          <button class="form-btn" type="submit" disabled>Send</button>
         </form>
       </div>
     </div>
