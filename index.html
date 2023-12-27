@@ -514,23 +514,25 @@
               rows="6"
             ></textarea>
           </div>
-          <label class="modal-agreement">
+          <div class="modal-agreement">
             <input
-              class="modal-checkbox"
+              class="visually-hidden"
               type="checkbox"
-              name="usr_agreement"
-              value="false"
+              name="user-privacy"
+              value="true"
             />
-            <span class="form-agreement-checkbox">
-              <svg class="form-agreement-icon" width="10" height="10">
-                <use href="./images/sprite.svg#icon-checkbox"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="form-agreement-link" href="">Privacy Policy</a>
-          </label>
+            <label class="modal-label-user-privacy" id="user-privacy">
+              <span class="modal-span-user-privacy">
+                <svg class="modal-icon-checkbox" width="10" height="8">
+                  <use href="./images/sprite.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
 
-          <button class="form-btn" type="submit" disabled>Send</button>
+              <a class="modal-link-privacy" href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-send-btn" type="submit" disabled>Send</button>
         </form>
       </div>
     </div>

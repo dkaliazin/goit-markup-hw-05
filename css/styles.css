@@ -565,11 +565,13 @@ p {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover {
-  fill: #ffffff;
+  background-color: #404bbf;
+
   border: none;
 }
 .modal-btn:focus {
-  fill: #ffffff;
+  background-color: #404bbf;
+
   border: none;
 }
 
@@ -577,12 +579,15 @@ p {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn-icon:hover {
+.modal-btn:hover + .modal-btn-icon {
   fill: #ffffff;
+  stroke: #ffffff;
 }
-.modal-btn-icon:focus {
+.modal-btn:focus + .modal-btn-icon {
   fill: #ffffff;
+  stroke: #ffffff;
 }
+
 .modal-paragraph {
   color: #2e2f42;
   text-align: center;
@@ -596,7 +601,6 @@ p {
   margin-bottom: 16px;
 }
 .modal-form {
-  margin-bottom: 16px;
 }
 .modal-label {
   display: block;
@@ -650,6 +654,7 @@ p {
 }
 .modal-field {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-wrapper {
   margin-bottom: 16px;
@@ -664,4 +669,50 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-agreement {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.modal-input-checkbox {
+}
+.modal-input-checkbox:hover {
+  fill: var(--OCEAN, #404bbf);
+  stroke-width: 1px;
+  stroke: var(--OCEAN, #404bbf);
+}
+.modal-input-checkbox:focus {
+  fill: var(--OCEAN, #404bbf);
+  stroke-width: 1px;
+  stroke: var(--OCEAN, #404bbf);
+}
+.modal-label-user-privacy {
+  margin: 0;
+  color: var(--LIGHT-SLATE, #8e8f99);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.48px;
+}
+.modal-icon-checkbox {
+  margin-right: 8px;
+}
+.modal-span-user-privacy {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.modal-link-privacy {
+}
+.modal-send-btn {
 }
