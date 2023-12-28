@@ -674,7 +674,12 @@ p {
   align-items: center;
 }
 
-.modal-input-checkbox {
+.modal-input-checkbox:checked + .modal-span-user-privacy {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.modal-input-checkbox:checked {
 }
 .modal-input-checkbox:hover {
   fill: var(--OCEAN, #404bbf);
@@ -713,6 +718,25 @@ p {
   fill: transparent;
 }
 .modal-link-privacy {
+  color: #4d5ae5;
 }
 .modal-send-btn {
+  display: block;
+  border: none;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
 }
