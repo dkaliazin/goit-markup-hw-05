@@ -721,7 +721,7 @@ p {
   margin-bottom: 8px;
 }
 .modal-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-icon {
   position: absolute;
@@ -738,7 +738,7 @@ p {
   align-items: center;
 }
 
-.modal-input-checkbox:checked + .modal-span-user-privacy {
+.modal-input-checkbox:checked .modal-span-user-privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
