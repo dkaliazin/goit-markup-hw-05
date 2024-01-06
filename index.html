@@ -445,14 +445,20 @@
         <div class="footer-subscribe-box">
           <p class="footer-subscribe-paragraph">Subscribe</p>
           <form class="footer-subscribe-form" name="subscribe" novalidate>
-            <label for="email">
+            <label class="footer-subscribe-label" for="sub-email">
               <input
                 class="footer-subscribe-input"
+                name="sub-email"
                 type="email"
                 placeholder="E-mail"
               />
             </label>
-            
+            <button class="footer-subscribe-btn" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-icon"width="24px" height="24px">
+                <use href="./images/icons.svg#icon-paper-airplane"></use>
+              </svg>
+            </button> 
         </div>
       </div>
     </footer>

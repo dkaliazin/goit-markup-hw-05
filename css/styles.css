@@ -426,6 +426,7 @@ p {
 }
 .footer-box-logo {
   margin-right: 120px;
+  min-width: 264px;
 }
 .footer-logo-studio {
   color: #f4f4fd;
@@ -529,7 +530,7 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   color: var(--WHITE, #fff);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -538,8 +539,28 @@ p {
   padding-left: 16px;
 }
 .footer-subscribe-btn {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+  text-align: center;
+  /* Button Text */
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  border: none;
 }
 .footer-subscribe-icon {
+  fill: #fff;
 }
 /*Main backdrop*/
 .backdrop {
