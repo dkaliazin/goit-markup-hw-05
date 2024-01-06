@@ -543,7 +543,6 @@ p {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   color: #fff;
   text-align: center;
   /* Button Text */
@@ -553,14 +552,16 @@ p {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border-radius: 4px;
   background-color: #4d5ae5;
   border: none;
+  cursor: pointer;
 }
 .footer-subscribe-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 /*Main backdrop*/
 .backdrop {
