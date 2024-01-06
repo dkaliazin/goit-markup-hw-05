@@ -647,7 +647,7 @@ p {
   fill: #ffffff;
   stroke: #ffffff;
 }
-.modal-btn:focus + .modal-btn-icon {
+.modal-btn:focus .modal-btn-icon {
   fill: #ffffff;
   stroke: #ffffff;
 }
