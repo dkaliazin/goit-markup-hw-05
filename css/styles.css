@@ -723,6 +723,9 @@ p {
 .modal-wrapper {
   margin-bottom: 8px;
 }
+.modal-wrapper {
+  margin-bottom: 16px;
+}
 .modal-form-icon {
   position: absolute;
   top: 50%;
